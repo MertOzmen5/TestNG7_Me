@@ -1,19 +1,19 @@
 package Gun06;
 
-import Utlity.BaseDriver;
+import Utility.BaseDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-// Bu sayfadaki bütün elemenalrın driverlar bağlantısı gerekiyor
-// bunun için aşağıdaki consructor eklendi ve için PageFatory ile
-// driver üzerinden bu (this) sayfadaki bütün elemnalar ilşkilendirildi.
+// Bu sayfadaki bütün elemenların driverla bağlantısı gerekiyor
+// bunun için aşağıdaki consructor eklendi ve için PageFactory ile
+// driver üzerinden bu (this) sayfadaki bütün elemanlar ilşkilendirildi.
 // Böylece Sayfada dan nesne türetildiği zaman değil, kullanıldığı
 // anda elemanların bulunması aktif oluyor.Bu yöntemle bütün sayfalarda
 // aynı isimde elemanlar var ise buradaki tanımlama hepsi için geçerli hale
 // gelmiş oluyor. buna yapıya Page Object Model (POM) adı veriliyor.
 // Faydaları: kod düzeni daha rahat, aynı locatorlar için tek bir tanımlama, kullanıldığı anda bulma, ve agile için
-// tam kolay çalışma yani developer başlamadan veyat bitirmesini beklemeden sen kodları yazabilir, ve kolaylıkla
+// tam kolay çalışma yani developer başlamadan veya bitirmesini beklemeden sen kodları yazabilir, ve kolaylıkla
 // değişiklik yapabilirsin.
 
 public class _01_PlaceOrder_Elementleri {

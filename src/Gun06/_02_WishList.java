@@ -6,19 +6,18 @@ package Gun06;
 
    1.Test;
    2- "ipod" ürününü aratınız."ipod" u xml den gönderiniz
-   3- çıkan elamnlardan random bir elelamnı Add Wish butonuna tıklayınız.
+   3- çıkan elemanlardan random bir elemanı Add Wish butonuna tıklayınız.
    4- Daha sonra WishList e tıklatınız
    5- Burada çıkan ürünle tıklanan ürünün isminin aynı olup olmadığını doğrulayınız.
  */
 
-import Utlity.BaseDriver;
-import Utlity.Tools;
+import Utility.BaseDriver;
+import Utility.Tools;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.util.List;

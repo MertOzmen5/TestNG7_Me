@@ -7,7 +7,8 @@ package Gun03;
       4- aynı işlemi samsung için de yapınız
     */
 
-import Utility.BaseDriver;
+
+import Utility.BaseDriverParameter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -15,11 +16,10 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-
 import java.util.List;
 
 
-public class _04_SearchFunctionality extends BaseDriver {
+public class _05_SearchCrossBrowser extends BaseDriverParameter {
 
     @Test
     @Parameters("searchText")

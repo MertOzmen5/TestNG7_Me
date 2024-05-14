@@ -12,7 +12,7 @@ package Gun05;
       doğrulamayı çıkan sayfadaki "Your order has been placed" yazısı ile yapınız.
 */
 
-import Utlity.BaseDriver;
+import Utility.BaseDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

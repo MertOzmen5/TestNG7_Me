@@ -1,8 +1,7 @@
 package Gun06;
 
-import Utlity.BaseDriver;
-import Utlity.Tools;
-import org.openqa.selenium.By;
+import Utility.BaseDriver;
+import Utility.Tools;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;

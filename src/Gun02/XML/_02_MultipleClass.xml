@@ -4,6 +4,7 @@
     <test name="test1">
         <classes>
             <class name="Gun02._03_Intro"></class>
+            <class name="Gun02._04_Intro"></class>
         </classes>
     </test>
 </suite>

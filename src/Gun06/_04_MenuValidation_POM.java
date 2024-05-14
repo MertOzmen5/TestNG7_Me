@@ -9,5 +9,24 @@ package Gun06;
  */
 
 
-public class _04_Soru {
+import Utility.BaseDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class _04_MenuValidation_POM extends BaseDriver {
+
+    @Test
+    public void MenuVal() {
+
+        _04_MenuValidation_Elements mve = new _04_MenuValidation_Elements();
+
+
+        for (int i = 0; i < mve.header.size(); i++) {
+
+            System.out.println(mve.header.get(i).getText());
+
+            Assert.assertTrue(mve.topMenu.getText().contains(mve.header.get(i).getText()),"Product is not available in Top Menu.");
+        }
+
+    }
 }

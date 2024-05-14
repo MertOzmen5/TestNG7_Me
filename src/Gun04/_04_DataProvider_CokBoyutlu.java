@@ -1,2 +1,29 @@
-package Gun04;public class _04_DataProvider_CokBoyutlu {
-}
+package Gun04;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class _04_DataProvider_CokBoyutlu {
+
+
+        @Test(dataProvider = "datalarim")
+        public void searchText(String username, String sifre) {
+            System.out.println(username + " " + sifre);
+
+        }
+
+        @DataProvider
+        Object[][] datalarim() {
+
+            Object[][] kullaniciVeSifre = {
+                    {"mert", "1234"},
+                    {"mehmet", "4444"},
+                    {"Ayşe", "6666"},
+                    {"Serkan", "9999"},
+                    {"Ali", "ddddd"},
+            };
+
+            return kullaniciVeSifre;
+        }
+    }
+
